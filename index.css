@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background-color: #1c1e1f;
+  color: #fff;
+}
+.word-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.head-word {
+  margin: 0;
+}
+.meaning-container {
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.meaning-container,
+.sub-container {
+  align-items: flex-start;
+  display: flex;
+}
+.sub-container {
+  flex-direction: row;
+  padding: 1em;
+}
+.word-day {
+  background-color: #171616;
+  border-radius: 15px;
+  color: #f9f3f3;
+  padding: 1em;
+}
+button {
+  border-radius: 10px;
+  font-size: 10px;
+  height: 4.5em;
+}
+.word-suggestion {
+  margin: 0 2em;
+}
+.input-style {
+  align-items: baseline;
+}
+input {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px 1px gray;
+  height: 2em;
+  margin: 0 1em;
+  padding: 0.5em;
+  width: 20em;
+}
+.sub-item {
+  margin-right: 2%;
+}
+/*# sourceMappingURL=main.2118a0a0.css.map*/
